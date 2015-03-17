@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Formation_3</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">refresh</string>
+    <string name="action_fill">fill</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="home_label_list">List View</string>
+    <string name="home_label_grid">Grid View</string>
+    <string name="title_activity_my_grid">MyGridActivity</string>
+
+</resources>

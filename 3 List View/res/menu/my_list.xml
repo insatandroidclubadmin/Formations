@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item 
+		android:id="@+id/action_refresh"
+		android:showAsAction="always"
+		android:title="@string/action_refresh"
+	    />
+	
+	<item 
+		android:id="@+id/action_fill"
+		android:showAsAction="always"
+		android:title="@string/action_fill"
+	    />
+
+</menu>
