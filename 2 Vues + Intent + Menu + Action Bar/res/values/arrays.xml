@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ateliers_nom">
+        <item>            @string/atelier1</item>
+        <item>            @string/atelier2</item>
+        <item>            @string/atelier3</item>
+        <item>            @string/atelier4</item>
+        <item>            @string/atelier5</item>
+    </string-array>
+    
+</resources>
