@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IAC Inscription 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bienvenue">Bienvenue à IAC \n</string>
+    <string name="nom_hint">Nom</string>
+    <string name="prenom_hint">Prenom</string>
+    <string name="atelier">Choisissez un atelier</string>
+    <string name="atelier1">JAVA SDK</string>
+    <string name="atelier2">Gaming</string>
+    <string name="atelier3">Sécurité</string>
+    <string name="atelier4">Robotique</string>
+    <string name="atelier5">Web Mobile</string>
+    <string name="staff">Rejoindre le staff</string>
+    <string name="button_valider">Je valide ! </string>
+    <string name="error">Champ obligatoire ! </string>
+    <string name="dialog_title">Confirmation</string>
+    <string name="annuler">Annuler</string>
+    <string name="confirmer">Confirmer</string>
+	<string name="action_logo">Voir Logo</string>
+	<string name="action_members_list">List of members</string>
+</resources>
