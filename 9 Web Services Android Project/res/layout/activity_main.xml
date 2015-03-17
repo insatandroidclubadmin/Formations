@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tn.iac.ws.MainActivity" >
+
+    <TextView
+        android:id="@+id/accueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Inscription IAC"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/accueil"
+        android:layout_marginTop="40dp"
+        android:hint="USERNAME"
+        android:ems="10" >
+    </EditText>
+	<EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:hint="EMAIL"
+        android:ems="10" >
+    </EditText>
+
+	<Spinner
+	    android:id="@+id/workshop"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+	    android:layout_below="@+id/email"
+	    android:entries="@array/workshops"
+	    android:layout_marginTop="10dp" />
+
+	<Button
+	    android:id="@+id/submit"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/workshop"
+	    android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+	    android:text="Submit" />
+
+</RelativeLayout>

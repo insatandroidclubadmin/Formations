@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="workshops">
+        <item>JAVA SDK</item>
+        <item>GAMING</item>
+        <item>WEB MOBILE</item>
+        <item>SECURITE</item>
+        <item>ROBOTIQUE</item>
+    </string-array>
+    
+</resources>
