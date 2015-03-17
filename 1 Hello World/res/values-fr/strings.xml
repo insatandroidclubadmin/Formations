@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bonjour tout le monde</string>
+    <string name="action_settings">Paramétres</string>
+    <string name="hello_world">Bonjour tout le monde!</string>
+    <string name="name"> Entrer votre nom</string>
+    <string name="click"> Cliquer SVP</string>
+    
+</resources>
